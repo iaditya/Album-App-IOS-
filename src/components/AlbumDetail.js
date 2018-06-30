@@ -6,7 +6,8 @@ import CardSection from './CardSection';
 const AlbumDetail = ({ record }) => {
 
     const { title, artist, thumbnail_image, image } = record;
-    const { textContainerStyle, thumbnailStyle, thumbnailContainerStyle, headerTextStyle, imageStyle } = styles;
+    const { textContainerStyle, thumbnailStyle,
+         thumbnailContainerStyle, headerTextStyle, imageStyle } = styles;
 
     return (
         <Card>
